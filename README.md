@@ -13,3 +13,7 @@
 12. Create placeholde in .js
 13. Add eventListener for placeholder
 14. Create functions for each event dragenter, dragleave, drop
+15. Create functionality for 5 tasks: create veriable 'items'
+16. Add a loop for items and in the function dragstart() add the class 'active' for dragged item
+17. Create array activeItem in the drop()
+18. Add condition and add this item by event.target.parentNode.append(item) to the placeholder

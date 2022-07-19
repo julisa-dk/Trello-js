@@ -41,6 +41,7 @@ body {
   color: #828282;
   text-align: center;
   cursor: grab;
+  margin: 3px;
 }
 
 .item:active {
@@ -49,7 +50,7 @@ body {
 
 .placeholder {
   width: 150px;
-  height: 66px;
+  height: 500px;
 }
 
 .start {
@@ -75,4 +76,8 @@ body {
 
 .hovered {
   border-top: 2px solid #cfcfcf;
+}
+
+.active {
+  border: 2px solid #91a59ffc;
 }
